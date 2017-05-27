@@ -5,8 +5,6 @@
 	<title>Выставка современного искусства</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -43,12 +41,12 @@
 			Общество переживает кризис правды и на пути к освобождению сознания человек встречает немало препятствий. Современная личность вынуждена подстраиваться под требования, ожидания и стереотипы внешнего окружения. Художественный проект Lumen — это попытка художников пролить свет на истинные чувства и желания, душевные качества, которые остались в тени, из-за страха быть отвергнутым.
 		</p>
 
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.320340430936!2d33.625642015679546!3d49.004490279302075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d9ffa20baa17ff%3A0x6b2c61b8eae945ec!2sCITYclub!5e0!3m2!1sru!2sua!4v1495109277246" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
 
 	</div>
 	</section>
 
-	<div id="map" style="width: 100%; height: 450px"></div>
+	
 
 	<img class="flover1" src="images/flover1.png" alt="flover">
 	<img class="flover2" src="images/flover2.png" alt="flover">
@@ -73,32 +71,8 @@
 	<img class="flover3" src="images/flover3.png" alt="flover">
 	</footer>
 	
-<!-- 	<script type="text/javascript">
-		ymaps.ready(init);
-    	var myMap;
 
 
-    var map = new ymaps.Map("map", {
-            center: [49.004645, 33.627714], 
-            zoom: 7
-        });
-
-    myPlacemark = new ymaps.Placemark([49.004645, 33.627714], { hintContent: 'City CLUB', balloonContent: 'Какой-то клуб' });
-    }
-</script> -->
-
-<script type="text/javascript">
-            var map;
-
-            DG.then(function () {
-                map = DG.map('map', {
-                    center: [49.004645, 33.627714],
-                    zoom: 30
-                });
-
-                DG.marker([49.004645, 33.627714]).addTo(map).bindPopup('City CLUB');
-            });
-        </script>
 
 </body>
 </html>
